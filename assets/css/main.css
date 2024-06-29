@@ -144,7 +144,8 @@ body {
 }
 
 .header-contacts button,
-.header-contacts a {
+.header-contacts .header-contacts__auth {
+	display: block;
     color: #231f20;
     border: 1px solid #616161;
     border-radius: 20px;
@@ -161,12 +162,42 @@ body {
 }
 
 .header-contacts button:hover,
-.header-contacts a:hover {
+.header-contacts .header-contacts__auth:hover {
     background-color: #e8ada9;
 }
 
 .header-menu__button {
     display: none;
+}
+
+.header-dropdown {
+	position: relative;
+}
+
+.header-dropdown__menu {
+	position: absolute;
+	display: none;
+	top: 100%;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	width: 100%;
+	background-color: #e9e1d4;
+}
+
+.header-dropdown:hover .header-dropdown__menu {
+	display: block;
+}
+
+.header-dropdown__menu a {
+	display: block;
+	text-align: center;
+	color: #231f20;
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Raleway', Arial, sans-serif;
 }
 
 /* intro */
@@ -1010,7 +1041,7 @@ form .form-submit:hover {
     }
 
     .header.opened {
-        max-height: 324px;
+        max-height: 350px;
         transition: max-height 0.3s ease-in-out;
     }
 
@@ -1034,7 +1065,8 @@ form .form-submit:hover {
         font-weight: 400;
     }
 
-    .header-contacts button {
+    .header-contacts button,
+	.header-contacts__auth {
         font-size: 14px;
     }
 

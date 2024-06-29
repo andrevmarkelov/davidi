@@ -1,3 +1,7 @@
+<?php
+$client_id = $this->session->userdata('client_id');
+?>
+
 <!--  Loader  -->
 <div id="loader">
 	<span></span>
@@ -22,7 +26,17 @@
 		<div class="header-contacts">
 			<button class="header-contacts__form">Онлайн запись</button>
 			<button class="header-contacts__messenger">Написать в TG</button>
-			<a href="<?php echo base_url('login'); ?>" class="header-contacts__auth">Войти</a>
+
+			<?php if ($client_id): ?>
+				<div class="header-dropdown">
+					<a href="<?php echo base_url('profile'); ?>" class="header-contacts__auth">Личный кабинет</a>
+					<div class="header-dropdown__menu">
+						<a href="<?php echo base_url('auth/logout'); ?>">Выйти</a>
+					</div>
+				</div>
+			<?php else: ?>
+				<a href="<?php echo base_url('login'); ?>" class="header-contacts__auth">Войти</a>
+			<?php endif; ?>
 		</div>
 
 		<button class="header-menu__button">

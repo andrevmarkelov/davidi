@@ -45,9 +45,6 @@
 				language: {
 					url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/ru.json',
 				},
-				rowReorder: {
-					selector: 'td:nth-child(2)'
-				},
 				responsive: true
 			});
 
