@@ -17,9 +17,6 @@
 			<li class="header-nav__item">
 				<button id="btnPromotion">Акции</button>
 			</li>
-			<li class="header-nav__item">
-				<button>Сертификат</button>
-			</li>
 		</ul>
 
 		<div class="header-contacts">

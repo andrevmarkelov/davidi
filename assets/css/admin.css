@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--main-bg: #f0f0f1;
+}
+
+body {
+	background-color: var(--main-bg);
+}
+
+/* header */
+.header {
+	width: 100%;
+	background-color: #1d2327;
+}
+
+.header-container {
+	width: 1320px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
