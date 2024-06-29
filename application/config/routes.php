@@ -58,3 +58,9 @@ $route['admin'] = 'admin/index/index';
 $route['admin/auth'] = 'admin/index/auth';
 $route['admin/login'] = 'admin/index/login';
 $route['admin/logout'] = 'admin/index/logout';
+
+// Profile routes
+$route['login'] = 'auth/login';
+$route['profile'] = 'auth/profile';
+$route['logout'] = 'auth/logout';
+$route['auth/do_login'] = 'auth/do_login';

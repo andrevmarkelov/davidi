@@ -22,6 +22,7 @@
 		<div class="header-contacts">
 			<button class="header-contacts__form">Онлайн запись</button>
 			<button class="header-contacts__messenger">Написать в TG</button>
+			<a href="<?php echo base_url('login'); ?>" class="header-contacts__auth">Войти</a>
 		</div>
 
 		<button class="header-menu__button">
