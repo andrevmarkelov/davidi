@@ -28,14 +28,16 @@ buttonsVideo.forEach((item) => {
     });
 });
 
-modalVideo.addEventListener('click', (event) => {
-    if (event.target === modalVideo || event.target.closest('.modal-close')) {
-        modalVideo.classList.remove('modal-show');
-        modalContent.classList.remove('modal-content-show');
-        video.src = '';
-        document.body.style.overflow = '';
-    }
-});
+if (modalVideo) {
+	modalVideo.addEventListener('click', (event) => {
+		if (event.target === modalVideo || event.target.closest('.modal-close')) {
+			modalVideo.classList.remove('modal-show');
+			modalContent.classList.remove('modal-content-show');
+			video.src = '';
+			document.body.style.overflow = '';
+		}
+	});
+}
 
 // reviews slide
 new Swiper(".reviewSlider", {

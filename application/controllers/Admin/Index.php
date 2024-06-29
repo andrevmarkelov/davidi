@@ -8,6 +8,7 @@ class Index extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->model('Admin/Admin_model');
+		$this->load->model('Admin/Client_model');
 		$this->load->library('session');
 		$this->load->helper(array('form', 'url'));
 	}
@@ -65,7 +66,13 @@ class Index extends CI_Controller
 			redirect('/admin/auth');
 		}
 
-		$this->load->view('admin/template');
+		$data = [
+			'title' => 'Клиенты - DaviDi',
+			'page' => 'admin/clients',
+			'clients' => $this->Client_model->get_clients()
+		];
+
+		$this->load->view('admin/template', $data);
 	}
 
 	/**
