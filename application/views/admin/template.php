@@ -21,7 +21,7 @@
 					<img src="<?php echo base_url('assets/img/logo-white.svg'); ?>" width="120" alt="DaviDi логотип">
 				</a>
 
-				<a href="<?php echo site_url('admin/index/logout'); ?>">Выход</a>
+				<a href="<?php echo site_url('Admin/Index/logout'); ?>">Выход</a>
 			</div>
 		</div>
 	</header>
@@ -51,14 +51,14 @@
 			$('#clients_table tbody').on('click', '.edit-client', function() {
 				const id = $(this).data('id');
 				$.ajax({
-					url: '<?php echo site_url('admin/clients/edit/'); ?>' + id,
+					url: '<?php echo site_url('Admin/Clients/edit/'); ?>' + id,
 					method: 'GET',
 					success: function(data) {
 						const client = JSON.parse(data);
 						$('#editClientModal #name').val(client.name);
 						$('#editClientModal #phone').val(client.phone);
 						$('#editClientModal #points').val(client.points);
-						$('#editClientModal form').attr('action', '<?php echo site_url('admin/clients/update/'); ?>' + client.id);
+						$('#editClientModal form').attr('action', '<?php echo site_url('Admin/Clients/update/'); ?>' + client.id);
 						$('#editClientModal').modal('show');
 					}
 				});

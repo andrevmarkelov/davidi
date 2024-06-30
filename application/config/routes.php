@@ -54,16 +54,16 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 // Admin panel routes
-$route['admin'] = 'admin/index/index';
-$route['admin/auth'] = 'admin/index/auth';
-$route['admin/login'] = 'admin/index/login';
-$route['admin/logout'] = 'admin/index/logout';
+$route['admin'] = 'Admin/Index/index';
+$route['admin/auth'] = 'Admin/Index/auth';
+$route['admin/login'] = 'Admin/Index/login';
+$route['admin/logout'] = 'Admin/Index/logout';
 
 // Profile routes
-$route['login'] = 'auth/login';
-$route['profile'] = 'auth/profile';
-$route['logout'] = 'auth/logout';
-$route['auth/do_login'] = 'auth/do_login';
+$route['login'] = 'Auth/login';
+$route['profile'] = 'Auth/profile';
+$route['logout'] = 'Auth/logout';
+$route['auth/do_login'] = 'Auth/do_login';
 
 // Page routes
 $route['policy'] = 'PagesController/policy';

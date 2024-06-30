@@ -3,7 +3,7 @@
 	<div class="form-container">
 		<h1>Вход в личный кабинет</h1>
 
-		<form method="post" action="<?php echo site_url('auth/do_login'); ?>">
+		<form method="post" action="<?php echo site_url('Auth/do_login'); ?>">
 			<?php if($this->session->flashdata('error')): ?>
 				<div class="form-error">
 					<p><?php echo $this->session->flashdata('error'); ?></p>

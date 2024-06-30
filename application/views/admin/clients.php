@@ -8,6 +8,13 @@
 	</div>
 
 	<div class="block-body">
+
+		<?php if($this->session->flashdata('error')): ?>
+			<div class="alert alert-danger mt-3" role="alert">
+				<?php echo $this->session->flashdata('error'); ?>
+			</div>
+		<?php endif; ?>
+
 		<table id="clients_table" class="display compact cell-border">
 			<thead>
 			<tr>
@@ -27,7 +34,7 @@
 						<button type="button" class="edit-client me-2" data-id="<?php echo $client->id; ?>">
 							<img src="<?php echo base_url('assets/img/edit.svg'); ?>" alt="Редактировать">
 						</button>
-						<a href="<?php echo site_url('admin/clients/delete/'.$client->id); ?>" onclick="return confirm('Вы уверены, что хотите удалить этого клиента?');">
+						<a href="<?php echo site_url('Admin/Clients/delete/'.$client->id); ?>" onclick="return confirm('Вы уверены, что хотите удалить этого клиента?');">
 							<img src="<?php echo base_url('assets/img/delete.svg'); ?>" alt="Удалить">
 						</a>
 					</td>
@@ -49,12 +56,6 @@
 			</div>
 			<div class="modal-body">
 				<form method="post" action="<?php echo site_url('admin/clients/create'); ?>">
-					<?php if($this->session->flashdata('error')): ?>
-						<div class="alert alert-danger" role="alert">
-							<?php echo $this->session->flashdata('error'); ?>
-						</div>
-					<?php endif; ?>
-
 					<div class="form-group">
 						<label for="name">ФИО:</label>
 						<input type="text" class="form-control" id="name" name="name" required>

@@ -35,7 +35,7 @@ $client_id = $this->session->userdata('client_id');
 					</div>
 				</div>
 			<?php else: ?>
-				<a href="<?php echo base_url('login'); ?>" class="header-contacts__auth">Войти</a>
+				<a href="<?php echo base_url('login'); ?>" class="header-contacts__link">Войти</a>
 			<?php endif; ?>
 		</div>
 
