@@ -55,7 +55,7 @@
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
-				<form method="post" action="<?php echo site_url('admin/clients/create'); ?>">
+				<form method="post" action="<?php echo site_url('Admin/Clients/create'); ?>">
 					<div class="form-group">
 						<label for="name">ФИО:</label>
 						<input type="text" class="form-control" id="name" name="name" required>
