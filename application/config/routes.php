@@ -64,3 +64,7 @@ $route['login'] = 'auth/login';
 $route['profile'] = 'auth/profile';
 $route['logout'] = 'auth/logout';
 $route['auth/do_login'] = 'auth/do_login';
+
+// Page routes
+$route['policy'] = 'PagesController/policy';
+$route['offer-agreement'] = 'PagesController/offer_agreement';

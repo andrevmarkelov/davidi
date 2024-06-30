@@ -24,12 +24,12 @@ $client_id = $this->session->userdata('client_id');
 		</ul>
 
 		<div class="header-contacts">
-			<button class="header-contacts__form">Онлайн запись</button>
-			<button class="header-contacts__messenger">Написать в TG</button>
+			<a href="https://t.me/davidi_prohair" target="_blank" class="header-contacts__link">Онлайн запись</a>
+			<a href="https://t.me/davidi_prohair" target="_blank" class="header-contacts__link">Написать в TG</a>
 
 			<?php if ($client_id): ?>
 				<div class="header-dropdown">
-					<a href="<?php echo base_url('profile'); ?>" class="header-contacts__auth">Личный кабинет</a>
+					<a href="<?php echo base_url('profile'); ?>" class="header-contacts__link">Личный кабинет</a>
 					<div class="header-dropdown__menu">
 						<a href="<?php echo base_url('auth/logout'); ?>">Выйти</a>
 					</div>

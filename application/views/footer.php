@@ -13,8 +13,8 @@
 
 		<div class="contacts-links">
 			<a href="https://www.instagram.com/davidi_prohair/" target="_blank">Instagram</a>
-			<a href="#" target="_blank">Telegram</a>
-			<a href="#" target="_blank">WhatsApp</a>
+			<a href="https://t.me/davidi_prohair" target="_blank">Telegram</a>
+			<a href="viber://chat?number=%2B375259882463" target="_blank">Viber</a>
 		</div>
 	</div>
 </div>
@@ -35,16 +35,16 @@
 			</a>
 
 			<div class="footer-description__contacts">
-				<p>ИП Имя Фамилия Отчество</p>
-				<p>ИНН 022812071228</p>
-				<p>ОГРНИП 228774622809228</p>
+				<p>Только здесь вы найдёте</p>
+				<p>лучшие и трендовые технологии</p>
+				<p>До встречи ❤</p>
 			</div>
 		</div>
 
 		<div class="footer-links">
 			<ul class="footer-link__policy">
-				<li><a href="#">Политика конфиденциальности</a></li>
-				<li><a href="#">Договор оферты</a></li>
+				<li><a href="<?php echo base_url('policy'); ?>">Политика конфиденциальности</a></li>
+				<li><a href="<?php echo base_url('offer-agreement'); ?>">Договор оферты</a></li>
 			</ul>
 
 			<ul class="footer-link__social">

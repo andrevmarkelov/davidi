@@ -1,13 +1,13 @@
 <!--  Intro  -->
 <div class="intro">
 	<div class="intro-container">
-		<img src="<?php echo base_url('assets/img/intro-bg.webp'); ?>" loading="lazy" alt="Intro" class="intro-container__image">
+		<img src="<?php echo base_url('assets/img/intro-bg.webp'); ?>" loading="lazy" alt="DaviDi Дом красивых волос в Молодечно" class="intro-container__image">
 
 		<div class="intro-title">
 			<h1>Студия выпрямления и восстановления волос в Молодечно</h1>
 			<div class="intro-action">
-				<button>Скидка на первый визит</button>
-				<button>Записаться онлайн</button>
+				<a href="https://t.me/davidi_prohair" target="_blank">Скидка на первый визит</a>
+				<a href="https://t.me/davidi_prohair" target="_blank">Записаться онлайн</a>
 			</div>
 		</div>
 	</div>
@@ -22,37 +22,37 @@
 
 		<div class="about-wrapper">
 			<div class="about-item">
-				<img src="https://dummyimage.com/50" alt="Квалификация мастера" class="about-item__logo">
+				<img src="<?php echo base_url('assets/img/icons/master-qualification.png'); ?>" alt="Квалификация мастера" class="about-item__logo">
 				<h3 class="about-item__title">Квалификация мастера</h3>
 				<p class="about-item__description">Опыт работы 7 лет более 500 довольных клиентов.Подтверждается все сертификатами и дипломами</p>
 			</div>
 
 			<div class="about-item">
-				<img src="https://dummyimage.com/50" alt="Круглосуточная запись онлайн" class="about-item__logo">
+				<img src="<?php echo base_url('assets/img/icons/hour-recording.png'); ?>" alt="Круглосуточная запись онлайн" class="about-item__logo">
 				<h3 class="about-item__title">Круглосуточная запись онлайн</h3>
 				<p class="about-item__description">Теперь записаться в DaviDi дом красивых волос стало ещё проще! Для вас появилась запись онлайн всего несколько кликов и готово</p>
 			</div>
 
 			<div class="about-item">
-				<img src="https://dummyimage.com/50" alt="Обработка инструментов" class="about-item__logo">
+				<img src="<?php echo base_url('assets/img/icons/tool-processing.png'); ?>" alt="Обработка инструментов" class="about-item__logo">
 				<h3 class="about-item__title">Обработка инструментов</h3>
 				<p class="about-item__description">Все инструменты для проведения процедур тщательно обрабатываются</p>
 			</div>
 
 			<div class="about-item">
-				<img src="https://dummyimage.com/50" alt="Гибкая система оплаты" class="about-item__logo">
+				<img src="<?php echo base_url('assets/img/icons/payment-system.png'); ?>" alt="Гибкая система оплаты" class="about-item__logo">
 				<h3 class="about-item__title">Гибкая система оплаты</h3>
 				<p class="about-item__description">Оплата наличными деньгами и оплата по карте любого банка</p>
 			</div>
 
 			<div class="about-item">
-				<img src="https://dummyimage.com/50" alt="Удобное месторасположение" class="about-item__logo">
+				<img src="<?php echo base_url('assets/img/icons/location.png'); ?>" alt="Удобное месторасположение" class="about-item__logo">
 				<h3 class="about-item__title">Удобное месторасположение</h3>
-				<p class="about-item__description">DaviDi дом красивых волос находится почти в центре Города .Для владельцев автомобилей есть парковка.</p>
+				<p class="about-item__description">DaviDi дом красивых волос находится почти в центре города Молодечно. Для владельцев автомобилей есть парковка.</p>
 			</div>
 
 			<div class="about-item">
-				<img src="https://dummyimage.com/50" alt="Free wi-fi, чай, кофе, вкусняшки" class="about-item__logo">
+				<img src="<?php echo base_url('assets/img/icons/wifi.png'); ?>" alt="Free wi-fi, чай, кофе, вкусняшки" class="about-item__logo">
 				<h3 class="about-item__title">Free wi-fi, чай, кофе, вкусняшки</h3>
 				<p class="about-item__description">Время процедуры либо ожидание процедуры пролетит незаметно! Ведь для вас есть самый вкусный чай/кофе с вкусняшками</p>
 			</div>
@@ -70,51 +70,81 @@
 
 		<div class="services-item__wrapper">
 			<div class="services-item">
-				<div class="services-item__title">Кератиновое выпрямление и ботокс для волос</div>
-				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 200 BYN</div>
-				<img src="<?php echo base_url('assets/img/keratinovoye-vypryamleniye.jpg'); ?>" alt="Кератиновое выпрямление и ботокс для волос" loading="lazy" class="services-item__image">
+				<div class="services-item__title">SPA уходы для волос</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 40 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/keratinovoye-vypryamleniye.jpg'); ?>" alt="Кератиновое выпрямление и ботокс для волос" loading="lazy" class="services-item__image">
 			</div>
 
 			<div class="services-item">
-				<div class="services-item__title">Холодное восстановление волос</div>
-				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 160 BYN</div>
-				<img src="<?php echo base_url('assets/img/kholodnoye-vosstanovleniye.jpg'); ?>" alt="Холодное восстановление волос" loading="lazy" class="services-item__image">
+				<div class="services-item__title">Ботокс</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 90 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/kholodnoye-vosstanovleniye.jpg'); ?>" alt="Холодное восстановление волос" loading="lazy" class="services-item__image">
 			</div>
 
 			<div class="services-item">
-				<div class="services-item__title">Коллагеновый уход</div>
-				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 190 BYN</div>
-				<img src="<?php echo base_url('assets/img/kollagenovyy-ukhod.jpg'); ?>" alt="Коллагеновый уход" loading="lazy" class="services-item__image">
+				<div class="services-item__title">Кератин</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 90 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/kollagenovyy-ukhod.jpg'); ?>" alt="Коллагеновый уход" loading="lazy" class="services-item__image">
 			</div>
 
 			<div class="services-item">
-				<div class="services-item__title">Нанопластика в технике полуперманент</div>
-				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 330 BYN</div>
-				<img src="<?php echo base_url('assets/img/nanoplastika-v-tekhnike-polupermanent.jpg'); ?>" alt="Нанопластика в технике полуперманент" loading="lazy" class="services-item__image">
+				<div class="services-item__title">Нанопластика</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 90 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/nanoplastika-v-tekhnike-polupermanent.jpg'); ?>" alt="Нанопластика в технике полуперманент" loading="lazy" class="services-item__image">
 			</div>
 
 			<div class="services-item">
-				<div class="services-item__title">Тотальная реконструкция волос</div>
-				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 330 BYN</div>
-				<img src="<?php echo base_url('assets/img/totalnaya-rekonstruktsiya-volos.jpg'); ?>" alt="Тотальная реконструкция волос" loading="lazy" class="services-item__image">
-			</div>
-
-			<div class="services-item">
-				<div class="services-item__title">Структурирование кудрей</div>
-				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 160 BYN</div>
-				<img src="<?php echo base_url('assets/img/strukturirovaniye-kudrey.jpg'); ?>" alt="Структурирование кудрей" loading="lazy" class="services-item__image">
+				<div class="services-item__title">Перманент (нано+кератин/ботокс)</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 100 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/totalnaya-rekonstruktsiya-volos.jpg'); ?>" alt="Тотальная реконструкция волос" loading="lazy" class="services-item__image">
 			</div>
 
 			<div class="services-item">
 				<div class="services-item__title">Пилинг кожи головы</div>
-				<div class="services-item__description">Процедура совместно с уходом для волос 50 BYN</div>
-				<img src="<?php echo base_url('assets/img/piling-kozhi-golovy.jpg'); ?>" alt="Пилинг кожи головы" loading="lazy" class="services-item__image">
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 55 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/strukturirovaniye-kudrey.jpg'); ?>" alt="Структурирование кудрей" loading="lazy" class="services-item__image">
+			</div>
+
+			<div class="services-item">
+				<div class="services-item__title">Ровный срез волос</div>
+				<div class="services-item__description">Процедура совместно с уходом для волос 10 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/hand-polishing.png'); ?>" alt="Ровный срез волос" loading="lazy" class="services-item__image">
+			</div>
+
+			<div class="services-item">
+				<div class="services-item__title">Ручная полировка</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 55 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/manual-polishing.png'); ?>" alt="Ручная полировка" loading="lazy" class="services-item__image">
+			</div>
+
+			<div class="services-item">
+				<div class="services-item__title">Тотальная рекострукция</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 100 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/total-reconstruction.png'); ?>" alt="Тотальная рекострукция" loading="lazy" class="services-item__image">
+			</div>
+
+			<div class="services-item">
+				<div class="services-item__title">Холодное восстановление</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 85 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/cold-recovery.png'); ?>" alt="Холодное восстановление" loading="lazy" class="services-item__image">
+			</div>
+
+			<div class="services-item">
+				<div class="services-item__title">Цветной ботокс</div>
+				<div class="services-item__description">Стоимость процедуры зависит от длины и густоты волос. От 90 BYN</div>
+				<img src="<?php echo base_url('assets/img/services/coloured-botox.png'); ?>" alt="Цветной ботокс" loading="lazy" class="services-item__image">
+			</div>
+
+			<div class="services-item">
+				<div class="services-item__title">Консультация</div>
+				<div class="services-item__description">Консультация бесплатная при записи на процедуру по предоплате либо при покупке домашнего ухода. От 40 BYN.</div>
+				<img src="<?php echo base_url('assets/img/services/consultation.png'); ?>" alt="Консультация" loading="lazy" class="services-item__image">
 			</div>
 		</div>
 
 		<div class="action-button">
-			<button>Получить консультацию</button>
-			<button>Записаться онлайн</button>
+			<a href="https://t.me/davidi_prohair" target="_blank">Получить консультацию</a>
+			<a href="https://t.me/davidi_prohair" target="_blank">Записаться онлайн</a>
 		</div>
 
 	</div>
@@ -126,36 +156,36 @@
 		<h2 class="title-container">Наши работы</h2>
 
 		<div class="portfolio-items">
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio1.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio1.jpg'); ?>" loading="lazy" alt="Portfolio 1">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio1.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio1.jpg'); ?>" loading="lazy" alt="Portfolio 1">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio2.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio2.jpg'); ?>" loading="lazy" alt="Portfolio 2">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio2.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio2.jpg'); ?>" loading="lazy" alt="Portfolio 2">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio3.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio3.jpg'); ?>" loading="lazy" alt="Portfolio 3">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio3.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio3.jpg'); ?>" loading="lazy" alt="Portfolio 3">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio4.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio4.jpg'); ?>" loading="lazy" alt="Portfolio 4">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio4.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio4.jpg'); ?>" loading="lazy" alt="Portfolio 4">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio5.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio5.jpg'); ?>" loading="lazy" alt="Portfolio 5">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio5.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio5.jpg'); ?>" loading="lazy" alt="Portfolio 5">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio6.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio6.jpg'); ?>" loading="lazy" alt="Portfolio 6">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio6.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio6.jpg'); ?>" loading="lazy" alt="Portfolio 6">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio7.jpeg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio7.jpeg'); ?>" loading="lazy" alt="Portfolio 7">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio7.jpeg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio7.jpeg'); ?>" loading="lazy" alt="Portfolio 7">
 			</a>
 
-			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio8.jpg'); ?>">
-				<img src="<?php echo base_url('assets/img/portfolio8.jpg'); ?>" loading="lazy" alt="Portfolio 8">
+			<a data-fancybox="gallery" data-src="<?php echo base_url('assets/img/portfolio/portfolio8.jpg'); ?>">
+				<img src="<?php echo base_url('assets/img/portfolio/portfolio8.jpg'); ?>" loading="lazy" alt="Portfolio 8">
 			</a>
 		</div>
 	</div>
@@ -167,46 +197,60 @@
 		<h2 class="title-container">Видео до и после</h2>
 
 		<div class="video-wrapper">
-			<div class="video-item" data-src="https://www.youtube.com/embed/gZqEXcoUk64">
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video1.mp4'); ?>">
 				<button class="video-item__play">
 					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
 				</button>
-				<img src="<?php echo base_url('assets/img/portfolio1.jpg'); ?>" alt="Видео">
+				<img src="<?php echo base_url('assets/video/thumbnail1.jpg'); ?>" alt="Видео">
 			</div>
 
-			<div class="video-item" data-src="https://www.youtube.com/embed/gZqEXcoUk64">
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video2.mp4'); ?>">
 				<button class="video-item__play">
 					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
 				</button>
-				<img src="<?php echo base_url('assets/img/portfolio2.jpg'); ?>" alt="Видео">
+				<img src="<?php echo base_url('assets/video/thumbnail2.jpg'); ?>" alt="Видео">
 			</div>
 
-			<div class="video-item" data-src="https://www.youtube.com/embed/gZqEXcoUk64">
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video3.mp4'); ?>">
 				<button class="video-item__play">
 					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
 				</button>
-				<img src="<?php echo base_url('assets/img/portfolio3.jpg'); ?>" alt="Видео">
+				<img src="<?php echo base_url('assets/video/thumbnail3.jpg'); ?>" alt="Видео">
 			</div>
 
-			<div class="video-item" data-src="https://www.youtube.com/embed/gZqEXcoUk64">
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video4.mp4'); ?>">
 				<button class="video-item__play">
 					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
 				</button>
-				<img src="<?php echo base_url('assets/img/portfolio4.jpg'); ?>" alt="Видео">
+				<img src="<?php echo base_url('assets/video/thumbnail4.jpg'); ?>" alt="Видео">
 			</div>
 
-			<div class="video-item" data-src="https://www.youtube.com/embed/gZqEXcoUk64">
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video5.mp4'); ?>">
 				<button class="video-item__play">
 					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
 				</button>
-				<img src="<?php echo base_url('assets/img/portfolio5.jpg'); ?>" alt="Видео">
+				<img src="<?php echo base_url('assets/video/thumbnail5.jpg'); ?>" alt="Видео">
 			</div>
 
-			<div class="video-item" data-src="https://www.youtube.com/embed/gZqEXcoUk64">
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video6.mp4'); ?>">
 				<button class="video-item__play">
 					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
 				</button>
-				<img src="<?php echo base_url('assets/img/portfolio6.jpg'); ?>" alt="Видео">
+				<img src="<?php echo base_url('assets/video/thumbnail6.jpg'); ?>" alt="Видео">
+			</div>
+
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video7.mp4'); ?>">
+				<button class="video-item__play">
+					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
+				</button>
+				<img src="<?php echo base_url('assets/video/thumbnail7.jpg'); ?>" alt="Видео">
+			</div>
+
+			<div class="video-item" data-src="<?php echo base_url('assets/video/video8.mp4'); ?>">
+				<button class="video-item__play">
+					<img src="<?php echo base_url('assets/img/play.svg'); ?>" width="33" height="33" alt="Открыть">
+				</button>
+				<img src="<?php echo base_url('assets/video/thumbnail8.jpg'); ?>" alt="Видео">
 			</div>
 		</div>
 
@@ -280,10 +324,6 @@
 				<div class="swiper-pagination"></div>
 			</div>
 		</div>
-
-		<div class="action-button">
-			<button>Оставить отзыв</button>
-		</div>
 	</div>
 </div>
 
@@ -293,6 +333,6 @@
 	</button>
 
 	<div class="modal-video__content">
-		<iframe id="video" width="100%" height="500" allowfullscreen></iframe>
+		<video  id="video" controls autoplay></video>
 	</div>
 </div>

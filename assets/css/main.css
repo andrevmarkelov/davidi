@@ -143,8 +143,7 @@ body {
     gap: 15px;
 }
 
-.header-contacts button,
-.header-contacts .header-contacts__auth {
+.header-contacts .header-contacts__link {
 	display: block;
     color: #231f20;
     border: 1px solid #616161;
@@ -161,8 +160,7 @@ body {
     font-family: 'Raleway', Arial, sans-serif;
 }
 
-.header-contacts button:hover,
-.header-contacts .header-contacts__auth:hover {
+.header-contacts .header-contacts__link:hover {
     background-color: #e8ada9;
 }
 
@@ -247,12 +245,14 @@ body {
     gap: 30px;
 }
 
-.intro-action button,
-.action-button button {
+.intro-action a,
+.action-button a {
     background-color: #dfa6a2;
     font-weight: 600;
     width: 300px;
     border-radius: 60px;
+	text-decoration: none;
+	text-align: center;
     color: #231f20;
     padding: 15px 10px;
     font-size: 14px;
@@ -262,8 +262,8 @@ body {
     font-family: 'Raleway', Arial, sans-serif;
 }
 
-.intro-action button:hover,
-.action-button button:hover {
+.intro-action a:hover,
+.action-button a:hover {
     color: #231f20;
     background-color: #e9e1d4;
 }
@@ -315,7 +315,6 @@ body {
     width: 100%;
     max-width: 50px;
     height: auto;
-    border-radius: 50%;
     margin-bottom: 10px;
 }
 
@@ -379,7 +378,7 @@ body {
 
 .services-item__title {
     color: #000000;
-    max-width: 239px;
+    width: 239px;
     font-size: 30px;
     line-height: 30px;
     font-weight: 600;
@@ -470,9 +469,17 @@ body {
 }
 
 .modal-video__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
     width: 960px;
     transform: translateY(100%);
     transition: transform 0.3s ease-out;
+}
+
+.modal-video__content video {
+	width: 100%;
+	height: 500px;
 }
 
 .modal-show {
@@ -491,6 +498,7 @@ body {
     background: none;
     right: 40px;
     top: 40px;
+	z-index: 2;
 }
 
 .video-wrapper {
@@ -715,7 +723,7 @@ body {
 .footer-description__contacts {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .footer-description__contacts p {
@@ -894,6 +902,30 @@ form .form-submit:hover {
 	background-color: #e8ada9;
 }
 
+/* info page */
+.info-page {
+	padding: 50px 0;
+	margin: 0 auto;
+	width: 1320px;
+}
+
+.info-page h1,
+.info-page h2 {
+	color: #000000;
+	font-family: 'Cormorant', Arial, sans-serif;
+}
+
+.info-page p,
+.info-page ul li {
+	color: #231f20;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.info-page ul {
+	list-style: inherit;
+	margin-left: 20px;
+}
+
 /* modal */
 .modal-promotion__content {
     width: 660px;
@@ -973,7 +1005,8 @@ form .form-submit:hover {
 
     .contacts-container,
     .footer-container,
-	.form-container {
+	.form-container,
+	.info-page {
         width: 90%;
     }
 }
@@ -1065,8 +1098,7 @@ form .form-submit:hover {
         font-weight: 400;
     }
 
-    .header-contacts button,
-	.header-contacts__auth {
+	.header-contacts__link {
         font-size: 14px;
     }
 
@@ -1127,8 +1159,8 @@ form .form-submit:hover {
         stroke-width: 6;
     }
 
-    .intro-action button,
-    .action-button button {
+    .intro-action a,
+    .action-button a {
         width: 230px;
         padding: 13px;
     }
@@ -1166,11 +1198,14 @@ form .form-submit:hover {
     .services-item {
         width: 100%;
     }
+
+	.action-button {
+		flex-direction: column;
+	}
 }
 
 @media screen and (max-width: 500px) {
-    .intro-action,
-    .action-button {
+    .intro-action {
         flex-direction: column;
         gap: 17px;
     }
@@ -1265,8 +1300,8 @@ form .form-submit:hover {
         line-height: 34px;
     }
 
-    .intro-action button,
-    .action-button button {
+    .intro-action a,
+    .action-button a {
         padding: 11px;
     }
 

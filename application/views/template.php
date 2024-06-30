@@ -6,7 +6,10 @@
 			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title><?php echo $title ?? 'DaviDi'; ?></title>
-		<link rel="icon" type="image/png" href="<?php echo base_url('assets/img/favicon.png'); ?>">
+		<meta name="description" content="DaviDi Дом красивых волос в Молодечно предлагает услуги по выпрямлению и восстановлению волос с использованием лучших и трендовых технологий. Уникальный подход к уходу за волосами и кожей головы." />
+		<meta name="keywords" content="выпрямление волос Молодечно, восстановление волос Молодечно, уход за волосами, салон красоты Молодечно, DaviDi Дом красивых волос" />
+		<link rel="icon" type="image/png" href="<?php echo base_url('assets/img/icons/favicon.png'); ?>">
+		<script src="<?php echo base_url('assets/js/schema.js'); ?>"></script>
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css'); ?>">
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/swiper.css'); ?>">
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/fancybox.css'); ?>">
